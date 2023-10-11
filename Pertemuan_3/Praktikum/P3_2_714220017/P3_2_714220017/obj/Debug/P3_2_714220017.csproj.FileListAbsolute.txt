@@ -1,0 +1,14 @@
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.exe.config
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.pdb
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.csproj.AssemblyReference.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.csproj.CoreCompileInputs.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan 3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.pdb
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.exe.config
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\bin\Debug\P3_2_714220017.pdb
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.csproj.AssemblyReference.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.csproj.CoreCompileInputs.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_3\Praktikum\P3_2_714220017\P3_2_714220017\obj\Debug\P3_2_714220017.pdb
