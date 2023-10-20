@@ -8,7 +8,7 @@ yang memiliki tipe data string dengan field "Book". Kata kunci "protected" membu
 kelas tempat variabel tersebut didefinisikan atau dari kelas turunan yang mewrisi kelas ini
 pesan kesalahan muncul Karena  `protected string myType = "Book";` adalah deklarasi variabel dengan nama `myType` yang memiliki tipe data string dan diinisialisasi dengan nilai awal "Book." Kata kunci `protected` berarti variabel ini hanya bisa diakses dari dalam kelas tempat ia didefinisikan atau dari kelas turunan yang mewarisi kelas ini.
 sehingga akan menampilkan pesan error Severity Code	Description Project	File	Line	Suppression State
-Error	CS0122	'Product_714220017.myType' is inaccessible due to it's protection level	P4_1_714220017	D:\Pemrograman IIB_PBO\Pertemuan_4\Praktikum\P4_1_714220017\P4_1_714220017\ProductTest_71422017.cs
+Error	CS0122	'Product_714220017.myType' is inaccessible due to it's protection level	P4_1_714220017	C:\Pemrograman IIB_PBO\Pertemuan_4\Praktikum\P4_1_714220017\P4_1_714220017\ProductTest_71422017.cs
 
 19. Perhatikan hasil yang muncul dilayar, kenapa bisa seperti itu?
     Jawaban : karena code 'protected string myType = 'Book'' yang mendeklarasikan variabel book diubah menjadi private string myType namun tidak mendeklarasikan variabel myType.
