@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book_714220017.cs" />
+    <Compile Include="DVD_714220017.cs" />
     <Compile Include="Product_714220017.cs" />
     <Compile Include="ProductTest_714220017.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
