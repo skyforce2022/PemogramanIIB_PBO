@@ -4,7 +4,7 @@ Bagian II
 OOP yang mendefinisikan fenomena seperti ini?
  jawaban : Pada output bagian title dari buku tidak muncul karena pada class book methodnya belum dibuat method dengan nama class mytitle. termasuk dalam fenomena inheritance.
 
-9. Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini judul buku tampil pada 
+14. Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini judul buku tampil pada 
    output!
    Jawaban : Title dari buku tersebut tidak muncul karena pada output tidak mengeeksekusi perintah myTitle karena pada property myTitle  belum terinisialisasi dalam class Book_714220031 Fenomena ini dalam OOP disebut Inheritance.
 
