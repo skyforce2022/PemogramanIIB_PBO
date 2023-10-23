@@ -6,7 +6,7 @@ OOP yang mendefinisikan fenomena seperti ini?
 
 14. Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini judul buku tampil pada 
    output!
-   Jawaban : Title dari buku tersebut tidak muncul karena pada output tidak mengeeksekusi perintah myTitle karena pada property myTitle  belum terinisialisasi dalam class Book_714220031 Fenomena ini dalam OOP disebut Inheritance.
+   Jawaban : Title dari buku tersebut tidak muncul karena pada output tidak mengeeksekusi perintah myTitle karena pada property myTitle  belum terinisialisasi dalam class Book_714220017 Fenomena ini dalam OOP disebut Inheritance.
 
   
 
