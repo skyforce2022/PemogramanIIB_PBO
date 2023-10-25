@@ -1,0 +1,10 @@
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\bin\Debug\P5_1_714220017.exe.config
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\bin\Debug\P5_1_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\bin\Debug\P5_1_714220017.pdb
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.csproj.AssemblyReference.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.Form1.resources
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.Properties.Resources.resources
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.csproj.GenerateResource.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.csproj.CoreCompileInputs.cache
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.exe
+C:\Users\0000\PemogramanIIB_PBO\Pertemuan_5\Praktikum\P5_1_714220017\P5_1_714220017\obj\Debug\P5_1_714220017.pdb
