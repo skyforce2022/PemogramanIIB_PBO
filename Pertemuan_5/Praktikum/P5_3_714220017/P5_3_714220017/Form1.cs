@@ -26,8 +26,8 @@ namespace P5_3_714220017
 
         private void btnTampilkan_Click(object sender, EventArgs e)
         {
-            string os = "";
-
+           string os = "";
+ 
             if (rb_android.Checked ==  true) 
             {
                 os = "Android";
