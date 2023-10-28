@@ -61,6 +61,7 @@
             // FormNama
             // 
             this.FormNama.AutoSize = true;
+            this.FormNama.BackColor = System.Drawing.Color.Transparent;
             this.FormNama.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormNama.Location = new System.Drawing.Point(258, 82);
             this.FormNama.Name = "FormNama";
@@ -73,6 +74,7 @@
             // JenisKelamin
             // 
             this.JenisKelamin.AutoSize = true;
+            this.JenisKelamin.BackColor = System.Drawing.Color.Transparent;
             this.JenisKelamin.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JenisKelamin.Location = new System.Drawing.Point(258, 137);
             this.JenisKelamin.Name = "JenisKelamin";
@@ -83,6 +85,7 @@
             // TglLahirForm
             // 
             this.TglLahirForm.AutoSize = true;
+            this.TglLahirForm.BackColor = System.Drawing.Color.Transparent;
             this.TglLahirForm.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TglLahirForm.Location = new System.Drawing.Point(258, 188);
             this.TglLahirForm.Name = "TglLahirForm";
@@ -116,11 +119,13 @@
             // 
             // PilihanJadwalgroupBox
             // 
+            this.PilihanJadwalgroupBox.BackColor = System.Drawing.Color.Transparent;
             this.PilihanJadwalgroupBox.Controls.Add(this.Jadwal1);
             this.PilihanJadwalgroupBox.Controls.Add(this.Jadwal2);
             this.PilihanJadwalgroupBox.Controls.Add(this.Jadwal3);
             this.PilihanJadwalgroupBox.Controls.Add(this.Jadwal4);
             this.PilihanJadwalgroupBox.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PilihanJadwalgroupBox.ForeColor = System.Drawing.Color.White;
             this.PilihanJadwalgroupBox.Location = new System.Drawing.Point(660, 251);
             this.PilihanJadwalgroupBox.Name = "PilihanJadwalgroupBox";
             this.PilihanJadwalgroupBox.Size = new System.Drawing.Size(405, 203);
@@ -181,6 +186,7 @@
             // 
             // PilihanKelasgroupBox
             // 
+            this.PilihanKelasgroupBox.BackColor = System.Drawing.Color.Transparent;
             this.PilihanKelasgroupBox.Controls.Add(this.BiolaMusik);
             this.PilihanKelasgroupBox.Controls.Add(this.GitarMusik);
             this.PilihanKelasgroupBox.Controls.Add(this.SaxophoneMusik);
@@ -190,6 +196,7 @@
             this.PilihanKelasgroupBox.Controls.Add(this.PianoMusik);
             this.PilihanKelasgroupBox.Controls.Add(this.DrumMusik);
             this.PilihanKelasgroupBox.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PilihanKelasgroupBox.ForeColor = System.Drawing.Color.White;
             this.PilihanKelasgroupBox.Location = new System.Drawing.Point(247, 251);
             this.PilihanKelasgroupBox.Name = "PilihanKelasgroupBox";
             this.PilihanKelasgroupBox.Size = new System.Drawing.Size(371, 203);
@@ -293,9 +300,9 @@
             // btnTampilkan
             // 
             this.btnTampilkan.Font = new System.Drawing.Font("Trebuchet MS", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTampilkan.Location = new System.Drawing.Point(533, 460);
+            this.btnTampilkan.Location = new System.Drawing.Point(509, 460);
             this.btnTampilkan.Name = "btnTampilkan";
-            this.btnTampilkan.Size = new System.Drawing.Size(85, 25);
+            this.btnTampilkan.Size = new System.Drawing.Size(96, 25);
             this.btnTampilkan.TabIndex = 5;
             this.btnTampilkan.Text = "Tampilkan";
             this.btnTampilkan.UseVisualStyleBackColor = true;
@@ -306,7 +313,7 @@
             this.FormSelesai.Font = new System.Drawing.Font("Trebuchet MS", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormSelesai.Location = new System.Drawing.Point(670, 460);
             this.FormSelesai.Name = "FormSelesai";
-            this.FormSelesai.Size = new System.Drawing.Size(79, 25);
+            this.FormSelesai.Size = new System.Drawing.Size(92, 25);
             this.FormSelesai.TabIndex = 6;
             this.FormSelesai.Text = "Selesai";
             this.FormSelesai.UseVisualStyleBackColor = true;
@@ -315,8 +322,9 @@
             // JudulForm
             // 
             this.JudulForm.AutoSize = true;
+            this.JudulForm.BackColor = System.Drawing.Color.Transparent;
             this.JudulForm.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JudulForm.ForeColor = System.Drawing.Color.DarkCyan;
+            this.JudulForm.ForeColor = System.Drawing.Color.DarkBlue;
             this.JudulForm.Location = new System.Drawing.Point(569, 22);
             this.JudulForm.Name = "JudulForm";
             this.JudulForm.Size = new System.Drawing.Size(248, 36);
@@ -339,7 +347,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::P5_4_714220017.Properties.Resources.photo_1464037866556_6812c9d1c72e;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1431, 494);
             this.Controls.Add(this.TextNamaBox);
             this.Controls.Add(this.JudulForm);
