@@ -83,6 +83,7 @@
             // 
             this.Angka1Angka2label.AutoSize = true;
             this.Angka1Angka2label.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Angka1Angka2label.ForeColor = System.Drawing.Color.Red;
             this.Angka1Angka2label.Location = new System.Drawing.Point(172, 215);
             this.Angka1Angka2label.Name = "Angka1Angka2label";
             this.Angka1Angka2label.Size = new System.Drawing.Size(142, 20);

@@ -51,110 +51,151 @@ namespace P6_3_714220017
 
         private void txtAngka_Leave(object sender, EventArgs e)
         {
-            if ((txtAngka.Text).All(Char.IsNumber))
+            if (txtAngka.Text == "")
             {
-                epCorrect.SetError(txtAngka, "Betul!");
-                epWarning.SetError(txtAngka, "");
-                epWrong.SetError(txtAngka, "");
+                epWarning.SetError(txtHuruf, "Teksbox Angka tidak boleh kosong!");
+                epWrong.SetError(txtHuruf, "");
+                epCorrect.SetError(txtHuruf, "");
             }
             else
             {
-                epCorrect.SetError(txtAngka, "");
-                epWarning.SetError(txtAngka, "");
-                epWrong.SetError(txtAngka, "Inputan hanya boleh angka");
+                if ((txtAngka.Text).All(Char.IsNumber))
+                {
+                    epWarning.SetError(txtAngka, "");
+                    epWrong.SetError(txtAngka, "");
+                    epCorrect.SetError(txtAngka, "Betul");
+                }
+                else
+                {
+                    epWarning.SetError(txtAngka, "");
+                    epWrong.SetError(txtAngka, "Imputan hanya boleh Angka !");
+                    epCorrect.SetError(txtAngka, "");
+                }
             }
+
         }
+
 
         private void txtEmail_Leave(object sender, EventArgs e)
         {
-            if (Regex.IsMatch(txtEmail.Text, @"^^[^@\s]+@[^@\s]+(\.[^@\s]+)+$"))
+            if (txtEmail.Text == "")
             {
-                epWarning.SetError(txtEmail, "");
-                epWrong.SetError(txtEmail, "");
-                epCorrect.SetError(txtEmail, "Betul!");
+                epWarning.SetError(txtHuruf, "Teksbox Email tidak boleh kosong!");
+                epWrong.SetError(txtHuruf, "");
+                epCorrect.SetError(txtHuruf, "");
             }
             else
             {
-                epWrong.SetError(txtEmail, "Format email salah!\nContoh: a@b.c");
-                epWarning.SetError(txtEmail, "");
-                epCorrect.SetError(txtEmail, "");
+
+
+                if (Regex.IsMatch(txtEmail.Text, @"^^[^@\s]+@[^@\s]+(\.[^@\s]+)+$"))
+                {
+                    epWarning.SetError(txtEmail, "");
+                    epWrong.SetError(txtEmail, "");
+                    epCorrect.SetError(txtEmail, "Betul!");
+                }
+                else
+                {
+                    epWarning.SetError(txtEmail, "");
+                    epWrong.SetError(txtEmail, "Format Email salah!\nContoh : a@b.c");
+                    epCorrect.SetError(txtEmail, "");
+                }
             }
         }
 
         private void txtAngka1_Leave(object sender, EventArgs e)
         {
-            if (txtAngka1.Text == "&& txtAngka1.text == ")
+            if (txtAngka2.Text == "" && txtAngka1.Text == "")
             {
-                epWarning.SetError(txtAngka1, "Textbox Angka1 tidak boleh kosong!");
+                epWarning.SetError(txtAngka1, "Teksbox Angka2 tidak boleh kosong!");
                 epWrong.SetError(txtAngka1, "");
                 epCorrect.SetError(txtAngka1, "");
-            }
 
-            if ((txtAngka1.Text).All(Char.IsNumber))
-            {
-                epCorrect.SetError(txtAngka1, "Betul!");
-                epWarning.SetError(txtAngka1, "");
-                epWrong.SetError(txtAngka1, "");
+                epWarning.SetError(txtAngka2, "Teksbox Angka2 tidak boleh kosong!");
+                epWrong.SetError(txtAngka2, "");
+                epCorrect.SetError(txtAngka2, "");
             }
             else
             {
-                epCorrect.SetError(txtAngka1, "");
-                epWarning.SetError(txtAngka1, "");
-                epWrong.SetError(txtAngka1, "Inputan boleh angka");
+                if ((txtAngka1.Text).All(Char.IsNumber))
+                {
+                    epWarning.SetError(txtAngka1, "");
+                    epWrong.SetError(txtAngka1, "");
+                    epCorrect.SetError(txtAngka1, "Betul");
+                }
+                else
+                {
+                    epWarning.SetError(txtAngka1, "");
+                    epWrong.SetError(txtAngka1, "Imputan hanya boleh Angka !");
+                    epCorrect.SetError(txtAngka1, "");
+                }
             }
-            {
-
-            }
-        }
+    }
 
         private void txtAngka2_TextChanged(object sender, EventArgs e)
         {
-            if (int.TryParse(txtAngka1.Text, out int angka1) && int.TryParse(txtAngka2.Text, out int angka2))
+           if (int.TryParse(txtAngka1.Text, out int Angka1) && int.TryParse(txtAngka2.Text, out int Angka2))
             {
-                if (angka1 >= angka2)
+            
+                if (Angka1 > Angka2)
                 {
                     epWarning.SetError(txtAngka2, "");
                     epWrong.SetError(txtAngka2, "");
-                    epCorrect.SetError(txtAngka2, "Angka 1 lebih besar dari angka 2");
+                    epCorrect.SetError(txtAngka2, "Angka1 Lebih Besar dari Angka2");
                 }
                 else
                 {
                     epWarning.SetError(txtAngka2, "");
-                    epWrong.SetError(txtAngka2, "");
-                    epCorrect.SetError(txtAngka2, "Angka 1 lebih besar dari angka 2");
+                    epWrong.SetError(txtAngka2, "Angka1 tidak Lebih Besar dari Angka2");
+                    epCorrect.SetError(txtAngka2, "");
                 }
             }
         }
 
-            private void txtAngka2_Leave(object sender, EventArgs e)
+        private void txtAngka2_Leave(object sender, EventArgs e)
+        {
+            txtAngka2_TextChanged(sender, e);
+
+            if (txtAngka1.Text == "")
             {
-                txtAngka2_TextChanged(sender, e);
+                epWarning.SetError(txtAngka2, "Textbox Angka2 tidak boleh kosong!");
+                epWrong.SetError(txtAngka2, "");
+                epCorrect.SetError(txtAngka2, "");
+            }
 
-                if (txtAngka1.Text == "")
-                {
-                    epWarning.SetError(txtAngka2, "Textbox Angka2 tidak boleh kosong!");
-                    epWrong.SetError(txtAngka2, "");
-                    epCorrect.SetError(txtAngka2, "");
-                }
+            if ((txtAngka2.Text).All(Char.IsNumber))
+            {
+                epCorrect.SetError(txtAngka2, "Betul!");
+                epWarning.SetError(txtAngka2, "");
+                epWrong.SetError(txtAngka2, "");
+            }
+            else
+            {
+                epCorrect.SetError(txtAngka2, "");
+                epWarning.SetError(txtAngka2, "");
+                epWrong.SetError(txtAngka2, "Inputan boleh angka");
+            }
+        }
 
-                if ((txtAngka2.Text).All(Char.IsNumber))
+        private void txtAngka1_TextChanged(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtAngka1.Text, out int Angka1) && int.TryParse(txtAngka2.Text, out int Angka2))
+            {
+
+                if (Angka1 > Angka2)
                 {
-                    epCorrect.SetError(txtAngka2, "Betul!");
                     epWarning.SetError(txtAngka2, "");
                     epWrong.SetError(txtAngka2, "");
+                    epCorrect.SetError(txtAngka2, "Angka1 Lebih Besar dari Angka2");
                 }
                 else
                 {
-                    epCorrect.SetError(txtAngka2, "");
                     epWarning.SetError(txtAngka2, "");
-                    epWrong.SetError(txtAngka2, "Inputan boleh angka");
+                    epWrong.SetError(txtAngka2, "Angka1 tidak Lebih Besar dari Angka2");
+                    epCorrect.SetError(txtAngka2, "");
                 }
             }
 
-            private void txtAngka1_TextChanged(object sender, EventArgs e)
-            {
-              
-            }
-        
+        }
     }
 }
