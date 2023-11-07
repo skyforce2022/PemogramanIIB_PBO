@@ -124,4 +124,7 @@
   <data name="jewel-in-changi-singapore-1chmer17qcdno736" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jewel-in-changi-singapore-1chmer17qcdno736.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Parked planes cover image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Parked planes cover image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

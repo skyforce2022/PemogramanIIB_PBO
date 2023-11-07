@@ -142,6 +142,23 @@ namespace P5_4_714220017
                 "\nTanggal Lahir: " + TanggalDate.Text +
                 "\nPilihan Kelas: " + kelasTerpilih.TrimEnd(',', ' ') +
                 "\nPilihan Jadwal: " + jadwalTerpilih;
+            if (TextNamaBox.Text == "")
+            {
+                MessageBox.Show("Nama : " + TextNamaBox + "\nJenis Kelamin : " + JenisKelamincomboBox + "\nTanggal Lahir : " + TanggalDate + "\nPilihan Kelas : " + PilihanKelasGroupBox + "\nPilihan Jadwal : " + PilihanJadwalgroupBox, "Informasi Pendaftaran", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (JenisKelamincomboBox.Text == "")
+            {
+                MessageBox.Show("Pilih jenis kelamin anda, tidak boleh kosong", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (PilihanKelasGroupBox.Text == "")
+            {
+                MessageBox.Show("Harus memilih salah satu dari pilihan kelas", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (PilihanJadwalgroupBox.Text == "")
+            {
+                MessageBox.Show("Harus memilih salah satu dari pilihan jadwal", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
 
             MessageBox.Show(message, "Kursus Musik", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
@@ -164,7 +181,7 @@ namespace P5_4_714220017
 
         private void FormSelesai_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

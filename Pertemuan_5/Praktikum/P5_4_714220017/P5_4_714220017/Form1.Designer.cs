@@ -39,7 +39,7 @@
             this.Jadwal2 = new System.Windows.Forms.RadioButton();
             this.Jadwal3 = new System.Windows.Forms.RadioButton();
             this.Jadwal4 = new System.Windows.Forms.RadioButton();
-            this.PilihanKelasgroupBox = new System.Windows.Forms.GroupBox();
+            this.PilihanKelasGroupBox = new System.Windows.Forms.GroupBox();
             this.BiolaMusik = new System.Windows.Forms.CheckBox();
             this.GitarMusik = new System.Windows.Forms.CheckBox();
             this.SaxophoneMusik = new System.Windows.Forms.CheckBox();
@@ -54,7 +54,7 @@
             this.TextNamaBox = new System.Windows.Forms.TextBox();
             this.astraFormMusicSchoolBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.PilihanJadwalgroupBox.SuspendLayout();
-            this.PilihanKelasgroupBox.SuspendLayout();
+            this.PilihanKelasGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.astraFormMusicSchoolBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,26 +184,26 @@
             this.Jadwal4.UseVisualStyleBackColor = true;
             this.Jadwal4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
-            // PilihanKelasgroupBox
+            // PilihanKelasGroupBox
             // 
-            this.PilihanKelasgroupBox.BackColor = System.Drawing.Color.Transparent;
-            this.PilihanKelasgroupBox.Controls.Add(this.BiolaMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.GitarMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.SaxophoneMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.KomposerMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.KonduktorMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.VokalMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.PianoMusik);
-            this.PilihanKelasgroupBox.Controls.Add(this.DrumMusik);
-            this.PilihanKelasgroupBox.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PilihanKelasgroupBox.ForeColor = System.Drawing.Color.White;
-            this.PilihanKelasgroupBox.Location = new System.Drawing.Point(247, 251);
-            this.PilihanKelasgroupBox.Name = "PilihanKelasgroupBox";
-            this.PilihanKelasgroupBox.Size = new System.Drawing.Size(371, 203);
-            this.PilihanKelasgroupBox.TabIndex = 3;
-            this.PilihanKelasgroupBox.TabStop = false;
-            this.PilihanKelasgroupBox.Text = "Pilihan Kelas";
-            this.PilihanKelasgroupBox.Enter += new System.EventHandler(this.FormKelas_Enter);
+            this.PilihanKelasGroupBox.BackColor = System.Drawing.Color.Transparent;
+            this.PilihanKelasGroupBox.Controls.Add(this.BiolaMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.GitarMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.SaxophoneMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.KomposerMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.KonduktorMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.VokalMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.PianoMusik);
+            this.PilihanKelasGroupBox.Controls.Add(this.DrumMusik);
+            this.PilihanKelasGroupBox.Font = new System.Drawing.Font("Trebuchet MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PilihanKelasGroupBox.ForeColor = System.Drawing.Color.White;
+            this.PilihanKelasGroupBox.Location = new System.Drawing.Point(247, 251);
+            this.PilihanKelasGroupBox.Name = "PilihanKelasGroupBox";
+            this.PilihanKelasGroupBox.Size = new System.Drawing.Size(371, 203);
+            this.PilihanKelasGroupBox.TabIndex = 3;
+            this.PilihanKelasGroupBox.TabStop = false;
+            this.PilihanKelasGroupBox.Text = "Pilihan Kelas";
+            this.PilihanKelasGroupBox.Enter += new System.EventHandler(this.FormKelas_Enter);
             // 
             // BiolaMusik
             // 
@@ -355,7 +355,7 @@
             this.Controls.Add(this.JudulForm);
             this.Controls.Add(this.FormSelesai);
             this.Controls.Add(this.btnTampilkan);
-            this.Controls.Add(this.PilihanKelasgroupBox);
+            this.Controls.Add(this.PilihanKelasGroupBox);
             this.Controls.Add(this.PilihanJadwalgroupBox);
             this.Controls.Add(this.TanggalDate);
             this.Controls.Add(this.JenisKelamincomboBox);
@@ -368,8 +368,8 @@
             this.Load += new System.EventHandler(this.AstraFormMusicSchool_Load);
             this.PilihanJadwalgroupBox.ResumeLayout(false);
             this.PilihanJadwalgroupBox.PerformLayout();
-            this.PilihanKelasgroupBox.ResumeLayout(false);
-            this.PilihanKelasgroupBox.PerformLayout();
+            this.PilihanKelasGroupBox.ResumeLayout(false);
+            this.PilihanKelasGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.astraFormMusicSchoolBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -384,7 +384,7 @@
         private System.Windows.Forms.ComboBox JenisKelamincomboBox;
         private System.Windows.Forms.DateTimePicker TanggalDate;
         private System.Windows.Forms.GroupBox PilihanJadwalgroupBox;
-        private System.Windows.Forms.GroupBox PilihanKelasgroupBox;
+        private System.Windows.Forms.GroupBox PilihanKelasGroupBox;
         private System.Windows.Forms.RadioButton Jadwal1;
         private System.Windows.Forms.RadioButton Jadwal2;
         private System.Windows.Forms.RadioButton Jadwal3;
