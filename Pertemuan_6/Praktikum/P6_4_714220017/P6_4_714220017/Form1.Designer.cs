@@ -195,7 +195,7 @@
             // 
             this.comboBoxKelas.FormattingEnabled = true;
             this.comboBoxKelas.Items.AddRange(new object[] {
-            "EXECUTIVE",
+            "EXECUTIVE ClASS",
             "BUSSINESS CLASS",
             "PREMIUM ECONOMY CLASS",
             "ECONOMY CLASS"});
